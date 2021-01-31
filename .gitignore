@@ -1,0 +1,12 @@
+##### VisualStudioCode
+.vscode/
+
+
+##### Composer
+composer.phar
+composer/
+guzzlehttp/
+psr/
+ralouphie/
+
+composer.lock
