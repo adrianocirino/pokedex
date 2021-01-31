@@ -5,7 +5,7 @@
 <h1 style="margin-top: 10px; text-align:center">Pokédex</h1>
 <hr>
     <div class="card-container">
-        <?php for ($i = 0; $i < $this->pokemons_length; $i++) { ?>
+        <?php for ($i = 0; $i < $this->pokemonsLength; $i++) { ?>
             <div class="card-item">
                 <img src="<?php echo $this->imagem ?>" class="img" alt="...">
                 <div>
@@ -16,5 +16,5 @@
                     <?php } ?>
                 </div>
             </div>
-        <?php $this->id++; $this->getPokemon($this->id); } ?>
+        <?php $this->id++; $this->getPokemonById($this->id); } ?>
     </div>

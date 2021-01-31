@@ -7,13 +7,13 @@
          
         public function index() {
             $this->id = 1;
-            $this->getPokemon($this->id);
+            $this->getPokemonById($this->id);
             $this->render('index', 'layout1');            
         }
 
-        public function getPokemon($id) {
+        public function getPokemonById($id) {
 
-            $this->pokemons_length = 50;
+            $this->pokemonsLength = 16;
 
             $apiUrl = "https://pokeapi.co/api/v2/pokemon/";
 
